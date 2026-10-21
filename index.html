@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Demo Webchat Qontak</title>
+  <style>
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+      color: #1f2937;
+      background: #f3f4f6;
+      line-height: 1.6;
+    }
+    header {
+      background: #4f46e5;
+      color: #fff;
+      padding: 48px 24px;
+      text-align: center;
+    }
+    header h1 { margin: 0 0 8px; font-size: 2rem; }
+    header p { margin: 0; opacity: 0.9; }
+    main {
+      max-width: 720px;
+      margin: 32px auto;
+      padding: 0 24px;
+    }
+    .card {
+      background: #fff;
+      border-radius: 12px;
+      padding: 24px;
+      margin-bottom: 16px;
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+    }
+    .card h2 { margin-top: 0; font-size: 1.15rem; }
+    footer {
+      text-align: center;
+      padding: 24px;
+      color: #6b7280;
+      font-size: 0.9rem;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Demo Webchat Qontak</h1>
+    <p>Halaman contoh untuk mencoba widget chat di website.</p>
+  </header>
+
+  <main>
+    <div class="card">
+      <h2>Tentang halaman ini</h2>
+      <p>Ini halaman sederhana untuk menguji webchat. Klik ikon chat di pojok layar untuk memulai percakapan.</p>
+    </div>
+    <div class="card">
+      <h2>Cara kerja</h2>
+      <p>Pesan dari pengunjung akan masuk ke Inbox Qontak Omnichannel dan bisa dibalas oleh agen.</p>
+    </div>
+  </main>
+
+  <footer>Halaman demo</footer>
+
+  <!-- Start of Qontak Web Chat V2 -->
+  <script
+    src="https://web-chat-app.qontak.com/embed.js"
+    data-code="YahOziuOQC2YHnESEh-P2Q"
+    async
+  ></script>
+  <!-- End of Qontak Web Chat V2 -->
+
+</body>
+</html>
